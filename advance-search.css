@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+div.top{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+}
+.top img{
+    width: 100px;
+    height:auto;
+    
+}
+.top a[href="google_search.html"]{
+    color:rgba(0,0,0,0.87);
+    width: fit-content;
+    height: auto;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    list-style-type: none;
+}
+.top a[href="google_search.html"]:hover{
+    text-decoration: underline;
+
+}
+h1{
+    color: #d93025;
+    font-size: 22px;
+  font-weight: inherit;
+  margin-left: 50px;
+}
+h2{
+    font-size: 16px;
+    font-weight:400 ;
+}
+form{
+    border-top: 1px solid rgb(143, 143, 143);
+  padding:50px 75px 50px 50px;
+    max-width: 85%;
+box-sizing:content-box;
+}
+.input-fild{
+    margin: 10px 0;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+.input-fild label{
+    color:rgba(0,0,0,0.87);
+    font-size: 14px;
+  width:180px;
+  min-width: 180px;
+  
+   
+}
+.input-fild input{
+    padding: 5px;
+    border: .5px solid lightgray;
+    width: -webkit-fill-available;
+    min-width: 0px;
+    
+    border-color: rgb(157, 163, 163);
+
+}
+.input-fild input:focus{
+    outline-color:#4486f4;
+    -moz-outline-radius: 0px;
+    
+}
+span{
+   padding:0 10px;
+    text-align: center;
+}
+
+#number{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+}
+#number input{
+    min-width: none;
+}
+
+input[type="submit"]{
+    background-color: #4486f4;
+    padding:10px;
+    border:none;
+    border-radius: 2px;
+    float: right;
+    color:white
+}
+input[type="submit"]:hover{
+    box-shadow: dodgerblue 0 0 5px;
+}
